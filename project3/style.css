@@ -1,0 +1,33 @@
+body{
+    padding: 30px;
+    /* flex-direction: row; */
+}
+
+div{
+    
+    padding: 20px;
+    margin: 10px;
+}
+
+#square{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+
+#circle{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+
+
+#triangle{
+    height: 0;
+    width: 0;
+    padding: 0;
+    border-bottom: 250px solid blueviolet;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+}
