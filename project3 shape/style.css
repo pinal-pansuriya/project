@@ -1,29 +1,29 @@
-body{
+body {
+    display: flex;
     padding: 30px;
-    /* flex-direction: row; */
 }
 
-div{
-    
+div {
+
     padding: 20px;
     margin: 10px;
 }
 
-#square{
+#square {
     background-color: blueviolet;
     width: 200px;
     height: 200px;
 }
 
-#circle{
+#circle {
     background-color: blueviolet;
     width: 200px;
     height: 200px;
-    border-radius: 300px;
+    border-radius: 50%;
 }
 
 
-#triangle{
+#triangle {
     height: 0;
     width: 0;
     padding: 0;
