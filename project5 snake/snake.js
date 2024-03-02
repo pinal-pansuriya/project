@@ -3,8 +3,9 @@ const foodSound = new Audio('./snake bg/food_G1U6tlb.mp3')
 const gameOverSound = new Audio('./snake bg/game-over-arcade-6435.mp3')
 const moveSound = new Audio('./snake bg/pow-90398.mp3')
 const musicSound = new Audio('./snake bg/8-bit-background-music-for-arcade-game-come-on-mario-164702.mp3')
-let speed = 15
-score = 0
+let speed = 7
+
+let score = 0
 let lastTime = 0
 let snakeArr = [
     { x: 10, y: 5 }
@@ -56,7 +57,7 @@ function gameEngine() {
             highscoreBox.innerHTML = "highscore : " + highScoreval;
         }
         scoreBox.innerHTML = 'score:' + score
-        snakeArr.unshift({ x: snakeArr[0].x + inputDir.x, y: snakeArr[0].y + inputDir.y })
+        snakeArr.unshift({ x: snakeArr[0].x + inputDir.x, y: snakeArr[0].y + inputDir.y })//add clone
         let a = 2
         let b = 17
         food = { x: Math.round(a + (b - a) * Math.random()), y: Math.round(a + (b - a) * Math.random()) };
