@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -17,99 +18,114 @@
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skill</a></li>
                 <li><a href="#project">Project</a></li>
-                <li><a href="#contect">Contect</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            <i id="bar" class="bx bx-menu" onclick="barr()"></i>
         </nav>
         <div class="main">
             <div class="mainText">
                 <h3>Hello I am,</h3>
                 <h1>Pinal Pansuriya</h1>
-                <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
-                    Earum delectus autem unde repellat eius, ex rem<br>
-                    quam ab quis labore. Est possimus perspiciatis saepe <br>
-                    voluptates quam. Quas hic quam suscipit?</p> -->
+                <a href="https://www.linkedin.com/in/pinal-pansuriya-b8282a299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"> <i class='bx bxl-linkedin-square' onclick="linkedin()"></i></a>
+                <a href="https://github.com/pinal-pansuriya/project.git" target="_blank"><i
+                        class='bx bxl-github'></i></a><br>
                 <button onclick="downloadBtn()">Download cv</button>
             </div>
         </div>
         <div id="about">
             <div class="head">
-                <h1>About<span> Us</span> </h1>
+                <h1>About<span> Me</span> </h1>
             </div>
             <div class="about">
                 <div class="aboutText">
-                    <h2> I am javaScript Developer</h2>
-                    <p>Skills :<span> javaScript, HTML, CSS, C Lan, C++</span> </p>
+                    <h2> I am Javascript Developer</h2>
                     <p>Education : <span>Currently,I am doing BCA 2nd year from Saurashtra University</span></p>
                 </div>
             </div>
-            <div id="project">
-                <div class="head">
-                    <h1>My <span> Works </span></h1>
+        </div>
+        <div id="skills">
+            <h1>Ski<span>ll</span></h1>
+        </div>
+        <div class="skill">
+            <img src="./project pic/javascript-1.svg">
+            <img src="./project pic/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png">
+            <img src="./project pic/CSS3_logo.svg.png">
+            <img src="./project pic/c-programming-language-logo-9B32D017B1-seeklogo.com.png">
+            <img src="./project pic/ISO_C++_Logo.svg.png">
+        </div>
+        <div id="project">
+            <div class="head">
+                <h1>My <span> Works </span></h1>
+            </div>
+            <div class="work">
+                <div class="workCard">
+                    <img src="./project pic/WhatsApp Image 2024-03-01 at 11.03.50 AM - Copy.jpeg" alt="">
+                    <p>Rock Paper Scissors</p>
+                    <a href="https://github.com/pinal-pansuriya/js/blob/20398699f761a3ab27b5205184ca6920716cbfdd/project2.html"
+                        target="_blank">Checkout</a>
                 </div>
-                <div class="work">
-                    <div class="workCard">
-                        <img src="./project pic/WhatsApp Image 2024-03-01 at 11.03.50 AM - Copy.jpeg" alt="">
-                        <p>Rock Paper Scissors</p>
-                        <a href="https://github.com/pinal-pansuriya/js/blob/20398699f761a3ab27b5205184ca6920716cbfdd/project2.html"
-                            target="_blank">checkOut</a>
-                    </div>
 
-                    <div class="workCard">
-                        <img src="./project pic/WhatsApp Image 2024-03-01 at 11.03.52 AM.jpeg" alt="">
-                        <p>Quiz App</p>
-                        <a href="https://github.com/pinal-pansuriya/project/tree/b1eb06244c19bb7ced785dca9a2804143daf3414/project4%20quiz"
-                            target="_blank">checkOut</a>
-                    </div>
+                <div class="workCard">
+                    <img src="./project pic/WhatsApp Image 2024-03-01 at 11.03.52 AM.jpeg" alt="">
+                    <p>Quiz App</p>
+                    <a href="https://github.com/pinal-pansuriya/project/tree/b1eb06244c19bb7ced785dca9a2804143daf3414/project4%20quiz"
+                        target="_blank">Checkout</a>
+                </div>
 
-                    <div class="workCard">
-                        <img src="./project pic/WhatsApp Image 2024-03-01 at 11.04.22 AM.jpeg" alt="">
-                        <p>Calculator</p>
-                        <a href="https://github.com/pinal-pansuriya/project/tree/b1eb06244c19bb7ced785dca9a2804143daf3414/project2%20calc"
-                            target="_blank">checkOut</a>
-                    </div>
+                <div class="workCard">
+                    <img src="./project pic/WhatsApp Image 2024-03-01 at 11.04.22 AM.jpeg" alt="">
+                    <p>Calculator</p>
+                    <a href="https://github.com/pinal-pansuriya/project/tree/b1eb06244c19bb7ced785dca9a2804143daf3414/project2%20calc"
+                        target="_blank">Checkout</a>
+                </div>
 
-                    <div class="workCard">
-                        <img src="./project pic/WhatsApp Image 2024-03-01 at 11.15.42 AM.jpeg" alt="">
-                        <p>Snake Game</p>
-                        <a href="https://github.com/pinal-pansuriya/project/tree/b1eb06244c19bb7ced785dca9a2804143daf3414/project5%20snake"
-                            target="_blank">checkOut</a>
-                    </div>
+                <div class="workCard">
+                    <img src="./project pic/WhatsApp Image 2024-03-01 at 11.15.42 AM.jpeg" alt="">
+                    <p>Snake Game</p>
+                    <a href="https://github.com/pinal-pansuriya/project/tree/b1eb06244c19bb7ced785dca9a2804143daf3414/project5%20snake"
+                        target="_blank">Checkout</a>
+                </div>
 
-                    <div class="workCard">
-                        <img src="./project pic/WhatsApp Image 2024-03-01 at 11.21.24 AM.jpeg" alt="">
-                        <p>Puzzle Game</p>
-                        <a href="https://github.com/pinal-pansuriya/project/tree/b1eb06244c19bb7ced785dca9a2804143daf3414/project6%20puzzle"
-                            target="_blank">checkOut</a>
-                    </div>
+                <div class="workCard">
+                    <img src="./project pic/WhatsApp Image 2024-03-01 at 11.21.24 AM.jpeg" alt="">
+                    <p>Puzzle Game</p>
+                    <a href="https://github.com/pinal-pansuriya/project/tree/b1eb06244c19bb7ced785dca9a2804143daf3414/project6%20puzzle"
+                        target="_blank">Checkout</a>
+                </div>
 
-                    <div class="workCard">
-                        <img src="./project pic/WhatsApp Image 2024-03-01 at 11.24.30 AM.jpeg" alt="">
-                        <p>Tic Toe Game</p>
-                        <a href="https://github.com/pinal-pansuriya/js/blob/20398699f761a3ab27b5205184ca6920716cbfdd/project1.html"
-                            target="_blank">checkOut</a>
-                    </div>
+                <div class="workCard">
+                    <img src="./project pic/WhatsApp Image 2024-03-01 at 11.24.30 AM.jpeg" alt="">
+                    <p>Tic-Toc-Toe Game</p>
+                    <a href="https://github.com/pinal-pansuriya/js/blob/20398699f761a3ab27b5205184ca6920716cbfdd/project1.html"
+                        target="_blank">Checkout</a>
                 </div>
             </div>
-            <div id="contect">
-                <div class="head">
-                    <h1>contect<span>Us</span> </h1>
-                </div>
-                <div class="contect">
-                    <input type="text" placeholder="Enter Your Name" id="name">
-                    <input type="text" placeholder="Enter Your Email" id="email">
-                    <textarea name="" id="msg" cols="40" rows="6" value="" placeholder="Enter Message..."></textarea>
-                    <button id="submit">Submit</button>
-                </div>
+            <div id="contact">
+                <h1 class='sub-title'>Contact <span> Me </span></h1>
             </div>
-            <div class="text">
-                <p>Privacy Policy</p>
-                <p>Trem & condition</p>
-                <p>Disclaimer</p>
+            <div class="title">
+                <div id="contact1">
+                    <i class='bx bxs-envelope'></i>
+                    <p>pinal24vp@gmail.com</p>
+                </div>
+
+                <div id="contact2">
+                    <i class='bx bxs-phone'></i>
+                    <p>+91 9023449845</p>
+                </div>
+
+                <div id="contact3">
+                    <i class='bx bx-current-location'></i>
+                    <p>Ahmedabad, india</p>
+                </div>
             </div>
         </div>
+    </div>
+    </div>
 </body>
 <script src="./index.js"></script>
-
 
 </html>
