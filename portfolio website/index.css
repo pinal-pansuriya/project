@@ -277,89 +277,112 @@ ul li a:hover {
     margin-top: 10px;
 }
 
-.logo i{
+.logo i {
     display: none;
 }
 
-@media screen and (max-width:1000px){
-    .main{
+@media screen and (max-width:1000px) {
+    .main {
         display: block;
         text-align: center;
         margin-top: 155px;
     }
 }
 
+#bar {
+    display: none;
+}
+
 /* Bar */
 
- @media screen and (max-width:800px) {
-    ul{
+@media screen and (max-width:800px) {
+    ul {
         display: none;
     }
+
+    #bar{
+        display: block;
+        font-size: 25px;
+    cursor: pointer;
+    }
 }
-.showData{
+
+.showData {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 23px;
-    background-color: rgb(60,59,59);
-    gap:20px;
+    background-color: rgb(60, 59, 59);
+    gap: 20px;
     border-radius: 5px;
     position: fixed;
     top: 75px;
     right: 3%;
 }
-#bar{
-    display: block;
-    font-size: 25px; 
-    cursor: pointer;
-} 
+
+/* #bar { */
+    /* display: none; */
+    /* font-size: 25px;
+    cursor: pointer; */
+/* } */
 
 /* Home */
 
-@media screen and ( max-width:550px) {
-    .mainText h1{
+@media screen and (max-width:550px) {
+    .mainText h1 {
         font-size: 36px;
     }
-    .mainText h3{
+
+    .mainText h3 {
         font-size: 21px;
     }
-    .mainText a{
+
+    .mainText a {
         font-size: 20px;
     }
 }
 
-@media screen and ( max-width:610px){
-    .title p{
+@media screen and (max-width:610px) {
+    .title p {
         display: block;
         font-size: 15px;
         justify-content: center;
     }
-    .title i{
+
+    .title i {
         display: block;
         font-size: 25px;
     }
-    #contact1{
+
+    #contact1 {
         margin-left: 10px;
     }
-    #contact1 i{
+
+    #contact1 i {
         margin-right: 20px;
     }
-    #contact1 p{
+
+    #contact1 p {
         margin-left: 10px;
     }
-    #contact2 i{
+
+    #contact2 i {
         margin-left: 23px;
     }
-    #contact2 p{
+
+    #contact2 p {
         margin-right: 20px;
     }
-    #contact3{
+
+    #contact3 {
         margin-left: 10px;
     }
-    #contact3 i{
+
+    #contact3 i {
         margin-left: 10px;
     }
-    #contact3 p{
+
+    #contact3 p {
         margin-right: 20px;
     }
-} 
+}

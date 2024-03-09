@@ -7,12 +7,12 @@ function downloadBtn() {
 }
 
 let ul = document.querySelector('ul')
-// bar.addEventlistnner('click',function(){
-    function barr(){
+
+function barr() {
     ul.classList.toggle('showData')
-    if(ul.classList == 'showData'){
+    if (ul.classList == 'showData') {
         bar.className = 'bx bx-x'
-    }else{
+    } else {
         bar.className = 'bx bx-menu'
     }
 }
