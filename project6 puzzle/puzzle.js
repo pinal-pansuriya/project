@@ -107,9 +107,7 @@ function checkwinn(){
     alert("success!")
 }
 
-    // imgOrder === finalOrder
-    // alert("success!")
-
+   
    
 
 
